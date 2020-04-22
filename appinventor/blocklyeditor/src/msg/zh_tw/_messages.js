@@ -33,7 +33,7 @@
 
 goog.provide('AI.Blockly.Msg.zh_tw');
 
-goog.require('Blockly.Msg.zh.hans');
+//goog.require('Blockly.Msg.zh.hans');
 
 /**
  * Due to the frequency of long strings, the 80-column wrap rule need not apply

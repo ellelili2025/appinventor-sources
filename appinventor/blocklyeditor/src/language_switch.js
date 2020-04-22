@@ -12,19 +12,19 @@
 goog.provide('Blockly.language_switch');
 
 goog.require('AI.Blockly.Msg.en');
-goog.require('AI.Blockly.Msg.zh_cn');
-goog.require('AI.Blockly.Msg.zh_tw');
-goog.require('AI.Blockly.Msg.es_es');
-goog.require('AI.Blockly.Msg.it_it');
-goog.require('AI.Blockly.Msg.ru');
-goog.require('AI.Blockly.Msg.ko_kr');
-goog.require('AI.Blockly.Msg.sv');
-goog.require('AI.Blockly.Msg.pt_br');
-goog.require('AI.Blockly.Msg.pt');
-goog.require('AI.Blockly.Msg.hu');
-goog.require('AI.Blockly.Msg.nl');
-goog.require('AI.Blockly.Msg.de');
-goog.require('AI.Blockly.Msg.pl');
+//goog.require('AI.Blockly.Msg.zh_cn');
+//goog.require('AI.Blockly.Msg.zh_tw');
+//goog.require('AI.Blockly.Msg.es_es');
+//goog.require('AI.Blockly.Msg.it_it');
+//goog.require('AI.Blockly.Msg.ru');
+//goog.require('AI.Blockly.Msg.ko_kr');
+//goog.require('AI.Blockly.Msg.sv');
+//goog.require('AI.Blockly.Msg.pt_br');
+//goog.require('AI.Blockly.Msg.pt');
+//goog.require('AI.Blockly.Msg.hu');
+//goog.require('AI.Blockly.Msg.nl');
+//goog.require('AI.Blockly.Msg.de');
+//goog.require('AI.Blockly.Msg.pl');
 
 Blockly.language_switch = {
   // Switch between languages
@@ -34,7 +34,7 @@ Blockly.language_switch = {
       Blockly.mainWorkspace.clear();
     }
     switch (language) {
-      case 'ko_KR':
+      /*case 'ko_KR':
         Blockly.Msg.ko.switch_blockly_language_to_ko.init();
         Blockly.Msg.ko.switch_language_to_korean.init();
         break;
@@ -88,7 +88,7 @@ Blockly.language_switch = {
       case 'pl':
         Blockly.Msg.pl.switch_blockly_language_to_pl.init();
         Blockly.Msg.pl.switch_language_to_polish.init();
-        break;
+        break;*/
       case 'en_US':
       case 'en':
       default:

@@ -6,7 +6,7 @@
 'use strict';
 
 goog.provide('AI.Blockly.Msg.ko_kr');
-goog.require('Blockly.Msg.ko');
+//goog.require('Blockly.Msg.ko');
 
 Blockly.Msg.ko.switch_language_to_korean = {
   // Switch language to korean.

@@ -6,7 +6,7 @@
 'use strict';
 
 goog.provide('AI.Blockly.Msg.pl');
-goog.require('Blockly.Msg.pl');
+//goog.require('Blockly.Msg.pl');
 
 Blockly.Msg.pl.switch_language_to_polish = {
   // Switch language to polish.

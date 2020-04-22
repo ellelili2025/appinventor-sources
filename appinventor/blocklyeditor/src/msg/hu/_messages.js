@@ -28,7 +28,7 @@
 
 goog.provide('AI.Blockly.Msg.hu');
 
-goog.require('Blockly.Msg.hu');
+//goog.require('Blockly.Msg.hu');
 
 /**
  * Due to the frequency of long strings, the 80-column wrap rule need not apply
